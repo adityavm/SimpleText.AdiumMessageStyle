@@ -47,7 +47,6 @@ a {
   body .event:first-child,
   body .message:first-child {
     margin-top: 0;
-    border-top: 0;
   }
 
 .header,
