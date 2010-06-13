@@ -16,5 +16,7 @@
   <string>12</string>
   <key>ShowsUserIcons</key>
   <false/>
+  <key>AllowTextColors</key>
+  <false/>
 </dict>
 </plist>
