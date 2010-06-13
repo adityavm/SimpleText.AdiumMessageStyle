@@ -30,6 +30,7 @@ a {
     text-decoration: underline;
   }
 
+.header,
 .status,
 .event,
 .message {
@@ -41,6 +42,7 @@ a {
   -webkit-animation-duration: 0.4s;
   -webkit-animation-iteration-count: 1;
 }
+  .header,
   body .status:first-child,
   body .event:first-child,
   body .message:first-child {
@@ -48,6 +50,7 @@ a {
     border-top: 0;
   }
 
+.header,
 .event,
 .status {
   padding: 0.5em 0;
@@ -57,12 +60,15 @@ a {
   color: #666;
   text-shadow: #fff 0 1px 0;
 }
+  .header .time,
+  .header .text,
   .event .time,
   .event .text,
   .status .time,
   .status .text {
     font-size: 0.9em;
   }
+  .header .text:after,
   .event .text:after,
   .status .text:after {
     content: ",";
@@ -72,6 +78,16 @@ a {
 .status.consecutive {
   border-top: 1px solid #fff;
 }
+
+.header {
+  background-color: #333;
+  color: #ccc;
+  font-weight: bold;
+  text-shadow: #000 0 1px 0;
+}
+  .header span {
+    color: #eee;
+  }
 
 .sender,
 .time,
